@@ -1,0 +1,198 @@
+.App {
+  background-color: #f1f1f1;
+  min-height: 1000px;
+}
+
+.App-logo {
+  height: 40vmin;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #09d3ac;
+}
+
+.header {
+  background-color: #faae53;
+  color: #343530;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: 700;
+  min-height: 200px;
+  max-height: 200px;
+  overflow: hidden;
+}
+
+.header .col-md-8 {
+  margin-top: 40px;
+}
+
+.header p {
+  font-weight: 100;
+  color: #4a4b46;
+  font-size: 20px;
+  line-height: 26px;
+}
+
+.logo {
+  max-height: 290px;
+  margin-top: -20px;
+  filter: invert(70%) sepia(78%) saturate(255%) hue-rotate(345deg)
+    brightness(100%) contrast(98%);
+}
+
+.filter {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-bottom: 30px;
+  border-bottom: 1px solid #abada3;
+}
+
+.monthBig {
+  width: 100%;
+  border-bottom: 1px solid #dddfd4;
+  font-weight: 500;
+  padding-bottom: 10px;
+}
+
+.date {
+  float: left;
+  max-width: 18%;
+  min-height: 100%;
+  padding-right: 18px;
+}
+
+.month {
+  letter-spacing: 2px;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.day {
+  margin-top: -13px;
+  font-size: 26px;
+  font-weight: 600;
+}
+
+.year {
+  margin-top: -10px;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.title {
+  color: #a41034;
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 600;
+}
+
+.grey {
+  color: #86887f;
+  font-size: 13px;
+  margin-top: -8px !important;
+  font-weight: 600;
+}
+
+.categories {
+  background-color: rgb(60, 192, 148);
+  padding:4px 7px;
+  font-size: 12px;
+  font-weight: 700;
+  color: white;
+  border-radius: 3px;
+}
+
+.audience {
+  background-color: #faae53;
+  padding:4px 7px;
+  margin-right: 10px;
+  font-size: 12px;
+  font-weight: 700;
+  color: white;
+  border-radius: 3px;
+}
+
+.card {
+  margin-bottom: 20px;
+  min-height: 320px;
+}
+
+.card:hover {
+  border: 2px solid #a41034;
+}
+
+.card-footer{
+  background-color: white;
+}
+
+.soc {
+  font-size: 24px;
+  margin-right: 10px;
+  float:left;
+}
+
+.reg {
+  color: #588f38;
+  float: right;
+  font-style: italic;
+  font-weight: 600;
+  font-size: 15px;
+}
+
+.btn-outline-secondary {
+  background-color: #a41034;
+  border: 0px !important;
+}
+
+.btn-outline-secondary:hover {
+  background-color: #ce0033;
+}
+
+.searchIcon {
+  margin-top: -4px;
+}
+
+.form-control:focus {
+  border-color: #faae53;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075),
+    0 0 8px rgba(255, 204, 121, 0.6);
+}
+
+.dropdown-menu > li > a:hover,
+.dropdown-menu > li > a:focus {
+  text-decoration: none;
+  color: #ffffff;
+  background-color: #faae53;
+}
+
+.bootstrap-select .dropdown-toggle {
+  background-color: #ffffff;
+}
+
+.dropdown-item.active,
+.dropdown-item:active {
+  color: #fff;
+  background-color: #faae53;
+}
+
+.btn-light:not(:disabled):not(.disabled).active,
+.btn-light:not(:disabled):not(.disabled):active,
+.show > .btn-light.dropdown-toggle {
+  color: #212529;
+  background-color: #ffffff;
+  border-color: #faae53;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075),
+    0 0 8px rgba(255, 204, 121, 0.6);
+}
+
+
