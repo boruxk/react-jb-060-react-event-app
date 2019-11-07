@@ -205,6 +205,7 @@ const Events = () => {
 
   useEffect(() => {
     let tempCat = [], tempAud = [], tempDate = [];  
+    //filter cat
     events.forEach(event => {
       if ( event.categories === requestedData[0].cat.toUpperCase()) {
         tempCat.push(event);
@@ -212,6 +213,7 @@ const Events = () => {
         tempCat.push(event);
       }
     });
+    //filter aud
     tempCat.forEach(event => {
       if (event.audience === requestedData[0].aud.toUpperCase()) {
         tempAud.push(event);
@@ -287,10 +289,7 @@ const Events = () => {
         tempDay = firstNextMonth.setDate(firstNextMonth.getDate() + 1)
         tempDay = new Date(tempDay);
       }
-      console.log(today);
-      console.log(new Date(event.date));
-      
-      
+      //filter date
       if (requestedData[0].date === "Today") {
         if (new Date(event.date).getDate() === today.getDate() && new Date(event.date).getMonth() === today.getMonth() && new Date(event.date).getFullYear() === today.getFullYear()) {
           tempDate.push(event);
